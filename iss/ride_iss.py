@@ -26,10 +26,10 @@ def main():
     people = helmetson['people']
     print(people)
     
-    print("People in space:" + len(people))
+    print( len(people))
 
     for name_in_people in people:
 #        print(people[1] + " on the " + people['name']) 
-        print(people[1])
+        print(name_in_people['name'] + " on the " + name_in_people['craft'])
 main()
 
